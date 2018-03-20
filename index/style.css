@@ -8,11 +8,11 @@ body{
 }
 .right{
   padding-left: 400px;
-  
+
   float: right;
 }
 header{
-  margin-top: 0;
+  margin-top:0px;
   background-color: #051b6d;
   border-bottom: 1px solid black;
   min-width: 100%;
