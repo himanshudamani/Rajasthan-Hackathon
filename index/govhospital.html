@@ -27,8 +27,8 @@
           </div>
           <div class="sex">
             <label for="sex">Sex:</label>
-            Male:<input type="radio" name="sex" value="male">
-            Female:<input type="radio" name="sex" value="female">
+            Male:<input type="radio" name="sex" value="male" required>
+            Female:<input type="radio" name="sex" value="female" required>
           </div>
           <div class="mother">
             <label for="father">Father's/Husband Name:</label>
@@ -36,7 +36,7 @@
           </div>
           <div class="city">
             <label for="city">City:</label>
-            <select class="city" name="city">
+            <select class="city" name="city" required>
               <option value="city" selected disabled hidden="">Select Your City</option>
               <option value="Ajmer">Ajmer</option>
               <option value="Banswara">Banswara</option>
@@ -191,7 +191,7 @@
             <input type="number" name="amount" value="" required>
           </div>
           <div class="button">
-            <button type="button" name="button" onclick="window.location.href='govtstudent.html'http://uat.rpp.rajasthan.gov.in/payments/v1/init'">Proceed to Pay</button>
+            <button type="submit" name="button" onclick="window.location.href='govtstudent.html'http://uat.rpp.rajasthan.gov.in/payments/v1/init'">Proceed to Pay</button>
           </div>
         </form>
       </div>
